@@ -35,7 +35,6 @@ nav {
 }
 
 .navbar {
-  /* border: 3px solid blue; */
   width: 100%;
   padding: 2% 3%;
   display: flex;
@@ -141,14 +140,14 @@ nav {
 
 .part-1 .capturing__text h2 {
   font-family: "Playfair Display", serif;
-  font-size: 250%;
+  font-size: 300%;
   color: #454447;
   /* animation: break 1s linear forwards; */
 }
 
 .part-1 .capturing__text p {
   font-family: "Nothing You Could Do", cursive;
-  font-size: 120%;
+  font-size: 150%;
   color: #454447;
   margin-top: 40px;
 }
@@ -160,7 +159,7 @@ nav {
   border-radius: 5px;
   transform: rotate(90deg);
   position: absolute;
-  top: 130%;
+  top: 150%;
   left: 50%;
 }
 
@@ -230,7 +229,7 @@ nav {
 .part-3 .galleries {
   position: absolute;
   top: 24%;
-  left: 65%;
+  left: 60%;
   color: #fff;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
@@ -525,7 +524,6 @@ nav {
     width: 100%;
     height: 100%;
     margin-top: 30px;
-    /* border: 2px solid red; */
   }
 
   .part-1 .part1__size .background__white {
@@ -568,7 +566,7 @@ nav {
   .part-1 .moreInfo {
     top: 120%;
     left: 55%;
-    width: 18%;
+    width: 20%;
     height: 10%;
   }
 
@@ -578,7 +576,6 @@ nav {
     height: 50rem;
     padding: 0 15%;
     margin: 5rem 0;
-    border: 1px solid blue;
   }
 
   /* part-3 */
@@ -593,8 +590,8 @@ nav {
   }
 
   .part-3 .galleries {
-    top: 18%;
-    left: 68%;
+    top: 20%;
+    left: 70%;
   }
 
   .part-3 .mywork {
@@ -622,7 +619,6 @@ nav {
   .part-4 {
     margin-top: 650px;
     height: 80vw;
-    border: 1px solid blue;
   }
 
   .part-4 .part4-bg {
@@ -796,7 +792,7 @@ nav {
 
   .part-1 .moreInfo {
     top: 110%;
-    left: 55%;
+    left: 65%;
   }
 
   .part-2 {
@@ -815,22 +811,19 @@ nav {
     font-size: 2rem;
   }
 
-  .part-3 {
-  }
-
   .part-3 .part-3__bg {
     margin: 0;
     width: 50%;
   }
 
   .part-3 .part-3-1 {
-    width: 80%;
+    width: 75%;
     left: 20%;
   }
 
   .part-3 .galleries {
-    top: 20%;
-    left: 75%;
+    top: 18%;
+    left: 70%;
   }
 
   .part-3 .mywork {
@@ -849,7 +842,7 @@ nav {
   }
 
   .part-3 .part-3-2 {
-    width: 70%;
+    width: 65%;
     left: 30%;
   }
 
@@ -885,7 +878,7 @@ nav {
 
   .part-5 {
     margin-top: 0;
-    height: 100%;
+    height: 60%;
   }
 
   .part-5 .part-5-bg {
@@ -899,7 +892,7 @@ nav {
   }
 
   .part-5 .book {
-    top: 30%;
+    top: 45%;
     left: 30%;
   }
 
@@ -911,5 +904,10 @@ nav {
 
   .part-5 .part-5-imagesContainer .image {
     padding-bottom: 12px;
+    margin-left: 30%;
+  }
+
+  .part-5 .part-5-imagesContainer .image img {
+    width: 75%;
   }
 }
